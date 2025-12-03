@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parabank Automation Suite">
+    
+    <test name="All Tests">
+        <classes>
+            <class name="com.parabank.tests.FirstTest"/>
+            <class name="com.parabank.tests.TestWithPOM"/>
+            <class name="com.parabank.tests.AllureLoginTest"/>
+            <class name="com.parabank.tests.DataDrivenLoginTest"/>
+            <class name="com.parabank.runners.CucumberRunner"/>
+        </classes>
+    </test>
+    
+</suite>
