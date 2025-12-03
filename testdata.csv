@@ -1,0 +1,5 @@
+"username,password,expected,description"
+"john,demo,SUCCESS,Valid login with correct credentials"
+"wrong,wrong,ERROR,Invalid login with wrong credentials"
+"admin,admin123,SUCCESS,Admin user login"
+"test,test,ERROR,Invalid test credentials"
